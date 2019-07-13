@@ -27,6 +27,6 @@
 对函数：<f,g> = f<sup>g</sup>w = &int; f(x)g(x)dx   
 ### 小波变换    
 小波不像正弦波那样在时域上无穷，它的能量在时域上十分集中且有限   
-![wavelet](http://xilinx.eetop.cn/attachments/2015/12/3_201512291403377sTl3.png)
+![wavelet](https://github.com/ankus-wu/Compressed-Sensing/blob/master/image/3_201512291403377sTl3.png)
 这对于分析瞬时时变的信号非常有用，有效的从信号中提取信息，通过伸缩和平移等运算对函数或信号进行多尺度细化分析。   
 小波变换会有一个母小波和父小波(尺度函数)，将母小波和父小波进行缩放和平移(缩放大小和平移有关)后的集合组成信号的基，这个基又有高频又有低频，可以用来表示信号。
