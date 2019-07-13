@@ -18,5 +18,13 @@
 ||x||2=&radic;4+17+12<sup>2</sup>   
 ||x||p=(2<sup>p</sup>+&radic;17<sup>p</sup>+12<sup>p</sup>)<sup>(1/p)</sup>   
 
-&sigma;<sub>k</sub> = {**x**: ||x||<sub>0</sub> &le;k}   
-表示**x**中所有k稀疏的信号集合，即信号x<sub>i</sub>中只有k个非零元素。  
+&Sigma;<sub>k</sub> = {**x**: ||x||<sub>0</sub> &le;k}   
+表示**x**中所有k稀疏的信号集合，即信号x<sub>i</sub>中只有k个非零元素。    
+稀疏度常被用作避免过拟合的标准，也经常用在图像处理任务中，因为对于自然图像，多尺度小波变换可提供近似稀疏表示。
+
+### 内积
+对向量：<v,w> = v<sup>t</sup>w = &Sigma;<sup>n</sup><sub>k=1</sub>v<sub>k</sub>w<sub>k</sub>   
+对函数：<f,g> = f<sup>g</sup>w = &int; f(x)g(x)dx   
+### 小波变换    
+小波不像正弦波那样在时域上无穷，它的能量在时域上十分集中且有限   
+<img>http://xilinx.eetop.cn/attachments/2015/12/3_201512291403377sTl3.png</img>
