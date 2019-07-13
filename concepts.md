@@ -16,4 +16,4 @@
 设x=(2i,0,1-4i,-12), i<sup>2</sup>=-1,
 ||x||1=|2i|+|0|+|1-4i|+|-12|=2+根号17+12
 ||x||2=根号4+17+12<sup>2</sup>
-||x||p=(2<sup>p</sup>+&radic17<sup>p</sup>+12<sup>p</sup>)<sup>(1/p)</sup>
+||x||p=(2<sup>p</sup>+<radic>17</radic><sup>p</sup>+12<sup>p</sup>)<sup>(1/p)</sup>
